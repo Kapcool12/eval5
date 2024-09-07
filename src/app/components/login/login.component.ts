@@ -12,6 +12,7 @@ import { AuthGuard } from '../../auth.guard';
   standalone: true,
   imports: [CommonModule, ReactiveFormsModule,HttpClientModule],
   providers: [LoginService,AuthGuard],
+  
 })
 export class LoginComponent {
   loginForm: FormGroup;
